@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: qwiklabs-gcp-03-f7c21646dba3
+        image: $PROJECT_ID
         ports:
         - containerPort: 8080
